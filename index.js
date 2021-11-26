@@ -69,7 +69,7 @@ async function run(){
     const result = await orderCollection.deleteOne(query);
     res.json(result);
 })
-
+ 
 
 // Getting Single Orders from Orders
     app.get('/orders/:id' , async (req , res)=>{
